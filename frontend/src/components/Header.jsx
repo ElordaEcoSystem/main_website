@@ -22,12 +22,12 @@ export const Header = ({ locale }) => {
         </div>
         <nav className="flex justify-center">
           <ul className="flex gap-6 text-prime font-semibold text-base items-center">
-            <Link href={`/about`}>Об организации</Link>
-            <Link href={`/press_center`}>Пресс-центр</Link>
-            <Link href={`/procurement`}>Закупки</Link>
-            <Link href={`/jobs`}>Вакансии</Link>
-            <Link href={`/compliance`}>Антикор</Link>
-            <Link href={`/requestPTO`}>Техническая документации</Link>
+            <Link href={`/${locale}/about`}>Об организации</Link>
+            <Link href={`/${locale}/press_center`}>Пресс-центр</Link>
+            <Link href={`/${locale}/procurement`}>Закупки</Link>
+            <Link href={`/${locale}/jobs`}>Вакансии</Link>
+            <Link href={`/${locale}/compliance`}>Антикор</Link>
+            <Link href={`/${locale}/requestPTO`}>Техническая документации</Link>
           </ul>
         </nav>
         <div className=" text-prime font-semibold text-base flex items-center">
