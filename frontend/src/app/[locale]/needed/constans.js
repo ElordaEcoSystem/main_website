@@ -183,13 +183,13 @@ export const NEWS_DATA = [
   },
 ];
 export const DIRECTORS_DATA = [
-  {
-    photoName: "Купешов_Нурлан_Маратович.jpeg",
-    fullName: "Купешов Нурлан Маратович",
-    positionOfCompany: "Генеральный директор",
-    internalNumber: 102,
-    reception: { day: "Четверг", time: { start: "15:00", end: "17:00" } },
-  },
+  // {
+  //   photoName: "Купешов_Нурлан_Маратович.jpeg",
+  //   fullName: "Купешов Нурлан Маратович",
+  //   positionOfCompany: "Генеральный директор",
+  //   internalNumber: 102,
+  //   reception: { day: "Четверг", time: { start: "15:00", end: "17:00" } },
+  // },
   {
     photoName: "Гарифуллин_Бахтияр_Салаватович.jpg",
     fullName: "Гарифуллин Бахтияр Салаватович",
