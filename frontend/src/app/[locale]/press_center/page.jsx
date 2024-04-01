@@ -2,8 +2,10 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { fetchBlogs } from "../needed/services";
+import { useLocale } from "next-intl";
 export default async function PressCenter() {
-  const blogs = await fetchBlogs();
+  const locale = useLocale();
+  const blogs = await fetchBlogs(locale);
   const domain = "http://127.0.0.1:1337";
   return (
     <section className="container py-12 flex flex-col gap-4 ">

@@ -1,4 +1,5 @@
-export async function fetchBlogs() {
+export async function fetchBlogs(locale) {
+  console.log(locale);
   const options = {
     headers: {
       Authorization: `Bearer ${process.env.STRAPI_API_TOKEN}`,
@@ -6,7 +7,7 @@ export async function fetchBlogs() {
   };
   try {
     const res = await fetch(
-      "http://127.0.0.1:1337/api/blogs?populate=thumbnail&sort=date_of_publication:desc",
+      `http://127.0.0.1:1337/api/blogs?populate=thumbnail&sort=date_of_publication:desc&locale=${locale}`,
       options
     );
     const response = await res.json();
@@ -15,3 +16,5 @@ export async function fetchBlogs() {
     console.error(err);
   }
 }
+
+//api/main-pages?locale=kk

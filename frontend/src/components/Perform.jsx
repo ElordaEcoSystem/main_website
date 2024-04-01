@@ -1,8 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import { PERFORM_YEAR_BUTTONS, PERFROM_STATS } from "@/app/needed/constans";
-import { PerformIcon } from "../app/needed/PerformIcon";
+import {
+  PERFORM_YEAR_BUTTONS,
+  PERFROM_STATS,
+} from "@/app/[locale]/needed/constans";
+import { PerformIcon } from "../app/[locale]/needed/PerformIcon";
 
 export const Perform = () => {
   const [activeYear, setActiveYear] = useState(PERFORM_YEAR_BUTTONS[0]);

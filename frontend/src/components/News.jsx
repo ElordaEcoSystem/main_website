@@ -1,7 +1,7 @@
 import React from "react";
 
 import { ArrowIcon } from "./icons/ArrowIcon";
-import { NEWS_DATA } from "@/app/needed/constans";
+import { NEWS_DATA } from "@/app/[locale]/needed/constans";
 import Image from "next/image";
 import Link from "next/link";
 

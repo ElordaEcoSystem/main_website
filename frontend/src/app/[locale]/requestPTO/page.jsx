@@ -10,22 +10,6 @@ export default function RequestPTO() {
         Перечень Необходимой технической документации для подписания декларации
         о соответствии
       </h2>
-
-      <div className="mt-4"></div>
-      {/* {t("Request").map((item, i) => {
-        return (
-          <>
-            <p>
-              <span className="text-prime font-bold">
-                {i + 1}
-                {`)`}
-              </span>
-              &nbsp;
-              <span>{item};</span>
-            </p>
-          </>
-        );
-      })} */}
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { fetchBlogs } from "@/app/needed/services";
+import { fetchBlogs } from "@/app/[locale]/needed/services";
 
 export default async function Post({ params }) {
   const blogs = await fetchBlogs();
