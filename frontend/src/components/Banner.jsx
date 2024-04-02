@@ -32,7 +32,7 @@ export const Banner = () => {
         </div>
         <div className="py-40">
           <Image
-            src="/image/Ресурс 1 белый.png"
+            src="/image/w_logo.png"
             width={0}
             height={0}
             sizes="100vw"
