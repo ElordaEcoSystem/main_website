@@ -8,7 +8,6 @@ import Link from "next/link";
 export const News = () => {
   const pathToThumbnail = "/image/posts";
   const newsArr = NEWS_DATA.slice(0, 4);
-  console.log(newsArr);
   return (
     <section id="news" className="py-10 container ">
       <div className="flex justify-between items-center">

@@ -1,5 +1,4 @@
 export async function fetchBlogs(locale) {
-  console.log(locale);
   const options = {
     headers: {
       Authorization: `Bearer ${process.env.STRAPI_API_TOKEN}`,

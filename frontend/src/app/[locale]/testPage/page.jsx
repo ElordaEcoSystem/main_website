@@ -20,8 +20,6 @@ export default () => {
         pagination={{ type: "fraction" }}
         navigation
         modules={[Navigation, Pagination, Scrollbar, A11y]}
-        onSlideChange={() => console.log("slide change")}
-        onSwiper={(swiper) => console.log(swiper)}
         className="h-96 w-full text-purple-700"
       >
         {media.map((item) => {
@@ -42,8 +40,6 @@ export default () => {
         spaceBetween={10}
         slidesPerView={3}
         modules={[Navigation, Pagination, Scrollbar, A11y]}
-        onSlideChange={() => console.log("slide change")}
-        onSwiper={(swiper) => console.log(swiper)}
         className="h-28 "
       >
         {media.map((item) => {

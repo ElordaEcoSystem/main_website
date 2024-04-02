@@ -12,7 +12,7 @@ export const Header = ({ locale }) => {
           <Link href="/" className="text-prime font-bold text-2xl">
             {/* <img src="./assets/img/logo.png" alt="" /> */}
             <Image
-              src="/image/Ресурс 1 синий.png"
+              src="/image/b_logo.png"
               width={0}
               height={0}
               sizes="84px"

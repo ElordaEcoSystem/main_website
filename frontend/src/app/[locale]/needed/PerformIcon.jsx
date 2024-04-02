@@ -7,7 +7,6 @@ import { PerformPump } from "../../../components/icons/PerformPump";
 import { PerformWash } from "../../../components/icons/PerformWash";
 
 export const PerformIcon = ({ icon, className }) => {
-  console.log("PerformIcon:", icon);
   const Icon =
     {
       [PERFORM_ICONS.STEAM]: PerformSteam,
