@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const Header = ({ locale }) => {
   return (
-    <header
+    <div
       id="menu"
       className="border-b border-prime h-16 flex justify-center items-center"
     >
@@ -34,6 +34,6 @@ export const Header = ({ locale }) => {
           <div>ru</div>
         </div>
       </div>
-    </header>
+    </div>
   );
 };

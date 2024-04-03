@@ -1,5 +1,6 @@
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
+import Link from "next/link";
 import React from "react";
 
 export default function Procurement() {
@@ -9,8 +10,8 @@ export default function Procurement() {
         Планы закупок товаров, работ и услуг
       </h2>
       <div className="flex flex-col gap-3 mt-4">
-        <a href="/document_procurment/План-2023.xls">План 2023</a>
-        <a href="/document_procurment/Приказ_2023.pdf">Приказ 2023</a>
+        <Link href="/document_procurment/План-2023.xls">План 2023</Link>
+        <Link href="/document_procurment/Приказ_2023.pdf">Приказ 2023</Link>
       </div>
     </div>
   );
