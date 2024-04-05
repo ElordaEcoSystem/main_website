@@ -1,7 +1,32 @@
+"use client";
+// import { useRoute, usePathname } from "@/navigation";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname, useRouter } from "next/navigation";
 
 export const Header = ({ locale }) => {
+  const path = usePathname();
+
+  const router = useRouter();
+  function onChangeLangeage(currentLanguage) {
+    let newLanguage;
+    switch (currentLanguage) {
+      case "kz":
+        newLanguage = "ru";
+        break;
+      case "ru":
+        newLanguage = "kz";
+        break;
+      default:
+        newLanguage = "kz";
+    }
+    // const parts = path.split("/");
+    // console.log(parts);
+    // parts[0] = newLanguage;
+    // console.log(parts);
+    // router.push(parts.join("/"));
+  }
+
   return (
     <div
       id="menu"
@@ -31,7 +56,13 @@ export const Header = ({ locale }) => {
           </ul>
         </nav>
         <div className=" text-prime font-semibold text-base flex items-center">
-          <div>ru</div>
+          <button
+            onClick={(e) => {
+              onChangeLangeage(e.target.value);
+            }}
+          >
+            {locale}
+          </button>
         </div>
       </div>
     </div>
