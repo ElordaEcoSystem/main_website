@@ -1,7 +1,6 @@
 "use client";
 
 import { YMaps, Map, Placemark } from "@pbe/react-yandex-maps";
-import { AddressIcon } from "./icons/AddressIcon";
 import { PhoneIcon } from "./icons/PhoneIcon";
 import { MailIcon } from "./icons/MailIcon";
 import { FacebookIcon } from "./icons/FacebookIcon";

@@ -2,7 +2,7 @@
 
 import { Banner } from "@/components/Banner";
 import { News } from "@/components/News";
-import { Perform } from "@/components/Perform";
+import { Perform } from "@/components/Perform/Perform";
 import { useTranslations } from "next-intl";
 
 export default function Home() {

@@ -1,4 +1,5 @@
-import Image from "next/image";
+import { Logo } from "./icons/Logo";
+
 import Link from "next/link";
 export const Banner = () => {
   return (
@@ -31,13 +32,7 @@ export const Banner = () => {
           </div>
         </div>
         <div className="py-40">
-          <Image
-            src="/image/w_logo.png"
-            width={0}
-            height={0}
-            sizes="100vw"
-            className="h-full w-full object-cover"
-          />
+          <Logo className="w-full h-full object-cover fill-white"></Logo>
         </div>
       </div>
     </section>

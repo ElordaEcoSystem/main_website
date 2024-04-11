@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_block_years",
+  "info": {
+    "displayName": "Years",
+    "icon": "clock",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "year": {
+      "type": "integer"
+    },
+    "number": {
+      "type": "integer"
+    }
+  }
+}
